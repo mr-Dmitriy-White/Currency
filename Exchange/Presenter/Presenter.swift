@@ -8,10 +8,11 @@
 
 import Foundation
 
-class MainPresenter {
+class MainPresenter: PresenterOutput {
+    
     var dataManager: DataManager
     var networking: NetworkProtocol
-    var view : ViewController!
+    var view : PresenterInput!
     
     init(networking: NetworkProtocol, dataManager: DataManager){
         self.networking = networking
@@ -36,5 +37,9 @@ class MainPresenter {
     
     func dataRequest() -> [[Double]]{
         return dataManager.obtainNumbers()
+    }
+    
+    func didPressedAction() {
+        print("press")
     }
 }

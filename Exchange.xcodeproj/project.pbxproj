@@ -21,6 +21,9 @@
 		A8C7344324C46A1A00706CDF /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C7344224C46A1A00706CDF /* GraphView.swift */; };
 		A8F9063F24C862B700A54A87 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F9063E24C862B700A54A87 /* Presenter.swift */; };
 		A8F9064124C8649400A54A87 /* Assembley.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F9064024C8649400A54A87 /* Assembley.swift */; };
+		A8F9064424C99F3F00A54A87 /* PresenterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F9064324C99F3F00A54A87 /* PresenterInput.swift */; };
+		A8F9064624C99F4A00A54A87 /* PresenterOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F9064524C99F4A00A54A87 /* PresenterOutput.swift */; };
+		A8F9064824C9BCAD00A54A87 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F9064724C9BCAD00A54A87 /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		A8C7344224C46A1A00706CDF /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 		A8F9063E24C862B700A54A87 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		A8F9064024C8649400A54A87 /* Assembley.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assembley.swift; sourceTree = "<group>"; };
+		A8F9064324C99F3F00A54A87 /* PresenterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterInput.swift; sourceTree = "<group>"; };
+		A8F9064524C99F4A00A54A87 /* PresenterOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterOutput.swift; sourceTree = "<group>"; };
+		A8F9064724C9BCAD00A54A87 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				A87A29BE24C1C53400C91162 /* ViewMain.swift */,
+				A8F9064724C9BCAD00A54A87 /* ButtonView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -143,6 +150,8 @@
 			isa = PBXGroup;
 			children = (
 				A8F9063E24C862B700A54A87 /* Presenter.swift */,
+				A8F9064324C99F3F00A54A87 /* PresenterInput.swift */,
+				A8F9064524C99F4A00A54A87 /* PresenterOutput.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -227,13 +236,16 @@
 			files = (
 				A87A29AF24C18AFA00C91162 /* ViewController.swift in Sources */,
 				A8F9063F24C862B700A54A87 /* Presenter.swift in Sources */,
+				A8F9064824C9BCAD00A54A87 /* ButtonView.swift in Sources */,
 				A8BEB5F624C5A7A200CE102F /* DataManager.swift in Sources */,
 				A8F9064124C8649400A54A87 /* Assembley.swift in Sources */,
 				A87A29C724C1CEFA00C91162 /* MainCollectionViewCell.swift in Sources */,
 				A8C7344324C46A1A00706CDF /* GraphView.swift in Sources */,
 				A874A73224C31C330016ED59 /* MoneyModel.swift in Sources */,
+				A8F9064624C99F4A00A54A87 /* PresenterOutput.swift in Sources */,
 				A87A29BF24C1C53400C91162 /* ViewMain.swift in Sources */,
 				A874A73E24C325A00016ED59 /* NetworkManager.swift in Sources */,
+				A8F9064424C99F3F00A54A87 /* PresenterInput.swift in Sources */,
 				A87A29C524C1CD8500C91162 /* MainCollectionView.swift in Sources */,
 				A87A29AB24C18AFA00C91162 /* AppDelegate.swift in Sources */,
 				A87A29AD24C18AFA00C91162 /* SceneDelegate.swift in Sources */,

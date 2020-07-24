@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewMain: UIView {
-
+    
     let imageBack: UIImageView = {
         let imageView = UIImageView()
         imageView.image = UIImage(named: "back")
@@ -30,15 +30,18 @@ class ViewMain: UIView {
     
     override init(frame: CGRect) {
         super.init(frame:frame)
-    
-        
-        addSubview(imageBack)
-        addSubview(imageBlure)
+        addOnView()
         setupConstraints()
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    
+    func addOnView(){
+        addSubview(imageBack)
+        addSubview(imageBlure)
     }
     
     func setupConstraints(){

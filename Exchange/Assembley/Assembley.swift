@@ -13,7 +13,7 @@ class MainModuleAssembley {
         let view = ViewController()
         let presenter = MainPresenter(networking:  NetworkManager(),
                                       dataManager: DataManagerImplementation())
-        view.presenter = presenter
+        view.outPut = presenter
         presenter.view = view
         return view
     }
